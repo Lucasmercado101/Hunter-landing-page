@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- based on https://dribbble.com/shots/14906236-Food-Web-UI-Concept?utm_source=Clipboard_Shot&utm_campaign=madhumia&utm_content=Food%20Web%20UI%20Concept&utm_medium=Social_Share -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div id="logo">
+          <p>Hunter</p>
+          <span>Food Cafe</span>
+        </div>
+        <ul class="pages-list">
+          <li class="pages-list__page-item">Menu</li>
+          <li class="pages-list__page-item">About</li>
+          <li class="pages-list__page-item pages-list__page-item--selected">
+            Order
+          </li>
+          <li class="pages-list__page-item">Delivery</li>
+          <li class="pages-list__page-item">Contact</li>
+          <li>
+            <div class="search-btn">
+              <img src="./search.svg" alt="search button" />
+            </div>
+          </li>
+        </ul>
+
+        <div class="buttons">
+          <button class="shopping-bag">
+            <img src="./shopping-bag.svg" alt="shopping bag" />
+          </button>
+          <button class="sign-in-btn">Sign In</button>
+          <button class="sign-up-btn">Sign Up</button>
+        </div>
+      </nav>
+
+      <div class="content">
+        <div class="left-half">
+          <img
+            src="./hand.png"
+            alt="hand pointing to the button"
+            class="hand"
+          />
+          <h1>Hunter!</h1>
+          <h3>that meets your needs</h3>
+          <form class="selection">
+            <div class="dropdown-input">
+              <p>Select Your City</p>
+              <img src="./chevron-down.svg" alt="chevron down" />
+            </div>
+            <div class="dropdown-input">
+              <p>Select Your Food</p>
+              <img src="./chevron-down.svg" alt="chevron down" />
+            </div>
+            <input class="submit-btn" type="button" value="Enjoy Your Food" />
+          </form>
+        </div>
+        <div class="right-half">
+          <div class="price">5$</div>
+          <img class="burger-img" src="/borger.png" alt="Hamburger" />
+          <div class="arrow arrow-left">
+            <img src="./arrow-left.svg" alt="arrow pointing left" />
+          </div>
+          <div class="arrow arrow-right">
+            <img src="./arrow-right.svg" alt="arrow pointing left" />
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-foods">
+        <div class="food-choice">
+          <img src="./burger-min.png" alt="burger" />
+          Burger
+        </div>
+        <div class="food-choice">
+          <img src="./salad.png" alt="burger" />
+          Salad
+        </div>
+        <div class="food-choice">
+          <img src="./za-min.png" alt="burger" />
+          Pizza
+        </div>
+        <div class="food-choice">
+          <img src="./juice.png" alt="burger" />
+          Drink
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
